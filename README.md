@@ -1,6 +1,6 @@
 # Setup Scala GitHub Action
 
-A GitHub Action to install Java via [Jabba](https://github.com/features/actions)
+A GitHub Action to install Java via [Jabba](https://github.com/shyiko/jabba)
 and sbt.
 
 - Configurable Java version: supports OpenJDK, GraalVM, Zulu and any other Java
@@ -55,9 +55,11 @@ The default Java version is the latest OpenJDK 8 HotSpot version via
 
 More Java version examples:
 
-- `graalvm@`: the latest GraalVM
+- `graalvm-ce-java11@`: the latest GraalVM OpenJDK11 version
 - `openjdk@1.14`: the latest OpenJDK 14 version
 - `zulu@1.11`: the latest Zulu OpenJDK 11
+
+see [jabba jvms] (https://github.com/shyiko/jabba/blob/master/index.json) for additional jvms
 
 ## Tips and tricks
 
